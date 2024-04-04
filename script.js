@@ -2,6 +2,7 @@ const closeButton = document.querySelector('.close-btn');
 const closeIcon = document.querySelector('.js-icon');
 const menu = document.querySelector('aside');
 const userInfo = document.querySelector('.user-info');
+const navigationParts = document.querySelectorAll('aside nav ul li');
 const navigationTexts = document.querySelectorAll('aside nav ul li a');
 
 function switchMenu() {
@@ -9,6 +10,9 @@ function switchMenu() {
   userInfo.classList.toggle('hidden');
   navigationTexts.forEach(navigationText => {
     navigationText.classList.toggle('hidden');
+  });
+  navigationParts.forEach(navigationPart => {
+    navigationPart.classList.toggle('padding-fix');
   });
   
   setTimeout(() => {

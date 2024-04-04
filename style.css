@@ -128,6 +128,10 @@ aside nav ul li:hover i {
   user-select: none;
 }
 
+.padding-fix {
+  margin-right: 8px;
+}
+
 @media screen and (max-width: 465px) {
   .user img {
     width: 45px;
