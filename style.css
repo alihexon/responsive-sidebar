@@ -127,3 +127,10 @@ aside nav ul li:hover i {
   opacity: 0;
   user-select: none;
 }
+
+@media screen and (max-width: 465px) {
+  .user img {
+    width: 45px;
+    height: 45px;
+  }
+}
