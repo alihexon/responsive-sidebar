@@ -20,4 +20,12 @@ function switchMenu() {
   }, 500)
 }
 
+function syncMenuSize() {
+  if(window.innerWidth <= 1000) {
+    switchMenu();
+  }
+}
+
+syncMenuSize();
+
 closeButton.addEventListener('click', switchMenu)
