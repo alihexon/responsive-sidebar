@@ -112,5 +112,9 @@ aside nav ul li:hover i {
 }
 
 .closed {
-  width: 100px;
+  width: 110px;
+}
+
+.hidden {
+  visibility: hidden;
 }
