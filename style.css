@@ -93,3 +93,20 @@ aside nav ul li:hover a,
 aside nav ul li:hover i {
   color: white;
 }
+
+.close-btn {
+  background-color: rgb(71, 90, 231);
+  color: white;
+  position: absolute;
+  top: 42px;
+  right: -15px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.close-btn i {
+  font-size: 22px;
+}
