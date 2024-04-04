@@ -10,13 +10,14 @@ function switchMenu() {
   navigationTexts.forEach(navigationText => {
     navigationText.classList.toggle('hidden');
   });
-
   
-  if (closeIcon.classList.contains('bx-chevron-left')) {
-    closeIcon.classList.replace('bx-chevron-left', 'bx-chevron-right');
-  } else {
-    closeIcon.classList.replace('bx-chevron-right', 'bx-chevron-left');
-  }
+  setTimeout(() => {
+    if (closeIcon.classList.contains('bx-chevron-left')) {
+      closeIcon.classList.replace('bx-chevron-left', 'bx-chevron-right');
+    } else {
+      closeIcon.classList.replace('bx-chevron-right', 'bx-chevron-left');
+    }
+  }, 500)
 }
 
 closeButton.addEventListener('click', switchMenu)
