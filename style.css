@@ -22,13 +22,6 @@ aside {
   padding: 10px 15px;
 }
 
-aside header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
 .logo {
   font-size: 18px;
   font-weight: 600;
