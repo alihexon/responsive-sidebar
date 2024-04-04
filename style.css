@@ -110,3 +110,7 @@ aside nav ul li:hover i {
 .close-btn i {
   font-size: 22px;
 }
+
+.closed {
+  width: 100px;
+}
