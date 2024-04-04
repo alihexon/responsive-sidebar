@@ -46,6 +46,10 @@ aside {
   margin-bottom: 4px;
 }
 
+.user-role {
+  color: rgb(107, 91, 104);
+}
+
 aside nav ul {
   display: flex;
   flex-direction: column;
@@ -68,12 +72,12 @@ aside nav ul li:hover {
 }
 
 aside nav ul li a {
-  color: black;
-  font-weight: 420;
+  color: rgb(107, 91, 104);
   text-decoration: none;
 }
 
 aside nav ul li i {
+  color: rgb(107, 91, 104);
   font-size: 22px;
 }
 
