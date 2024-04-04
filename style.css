@@ -27,10 +27,6 @@ aside {
   font-weight: 600;
 }
 
-aside header i {
-  font-size: 26px;
-}
-
 .user {
   display: flex;
   align-items: center;
